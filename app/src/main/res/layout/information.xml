@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_height="55dp"
+       android:layout_width="match_parent">
+    <TextView
+        android:text="时间:"
+        android:textSize="30dp"
+        android:layout_height="50dp"
+        android:layout_width="100dp" />
+       <EditText
+           android:textAlignment="center"
+           android:id="@+id/t1"
+           android:layout_height="match_parent"
+           android:layout_width="80dp" />
+       <TextView
+           android:text="月"
+           android:textSize="35dp"
+           android:layout_height="match_parent"
+           android:layout_width="40dp" />
+       <EditText
+           android:textAlignment="center"
+           android:id="@+id/t2"
+           android:layout_height="match_parent"
+           android:layout_width="80dp" />
+       <TextView
+           android:text="日"
+           android:textSize="35dp"
+           android:layout_height="match_parent"
+           android:layout_width="40dp" />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_height="52dp"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="体温:"
+            android:textSize="30dp"
+            android:layout_height="match_parent"
+            android:layout_width="100dp" />
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/t3"
+            android:layout_height="match_parent"
+            android:layout_width="100dp" />
+        <TextView
+            android:text="℃"
+            android:textSize="35dp"
+            android:layout_height="match_parent"
+            android:layout_width="40dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="52dp"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="位置:"
+            android:textSize="30dp"
+            android:layout_height="50dp"
+            android:layout_width="100dp" />
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/t4"
+            android:layout_height="match_parent"
+            android:layout_width="160dp" />
+        <TextView
+            android:text="区/县"
+            android:textSize="35dp"
+            android:layout_height="match_parent"
+            android:layout_width="100dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
